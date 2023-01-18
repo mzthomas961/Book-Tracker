@@ -1,0 +1,79 @@
+body {
+    background-color: #2E3440;
+    color: #D8DEE9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+section#add-book {
+    margin: 20px;
+}
+
+section#add-book h2 {
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+section#add-book form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#add-book form label {
+    flex: 1;
+    margin-right: 10px;
+    text-align: right;
+}
+
+section#add-book form input[type="text"],
+section#add-book form input[type="number"],
+section#add-book form textarea {
+    flex: 2;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #3B4252;
+    border: none;
+    color: #D8DEE9;
+}
+
+section#add-book form button[type="submit"] {
+    background-color: #88C0D0;
+    color: #2E3440;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+section#book-collection {
+    margin: 20px;
+}
+
+section#book-collection h2 {
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+section#book-collection table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+section#book-collection table thead {
+    background-color: #3B4252;
+}
+
